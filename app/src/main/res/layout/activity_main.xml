@@ -7,19 +7,32 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-        android:text="java"
-       />
-    <TextView
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/fl"
+        />
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="kotlin_c"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Golang_c"
-        />
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_little"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小六壬"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/tv_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="大六壬"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
 </LinearLayout>
