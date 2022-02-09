@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android/NewGitTest/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/AS/NewGitTest/app/src/main/res/layout/activity_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/AS/NewGitTest/app/src/main/res/layout/fragment_little.xml" value="0.29891304347826086" />
+        <entry key="..\:/android/NewGitTest/app/src/main/res/layout/activity_main.xml" value="0.176" />
       </map>
     </option>
   </component>
