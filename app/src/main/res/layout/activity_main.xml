@@ -20,6 +20,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Golang"
+        android:text="Golang_b"
         />
 </LinearLayout>
